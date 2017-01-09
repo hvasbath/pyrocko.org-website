@@ -95,9 +95,10 @@ html_theme_options = {
     'linkcolor': '#204a87',
     'visitedlinkcolor': '#204a87',
     'nosidebar': True,
-    # 'appendcss': open('style.css').read(),
+    'appendcss': open('style.css').read(),
     # 'googlewebfonturl': 'https://fonts.googleapis.com/css?family=Roboto+Slab',
     # 'bodyfont': '"Roboto Slab",Arial,sans-serif',
+    'fontawesome': 'https://use.fontawesome.com/d51e5952e5.js',
 }
 pygments_style = 'friendly'
 
