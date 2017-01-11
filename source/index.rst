@@ -6,8 +6,9 @@ Pyrocko.org - Geophysical Software Swamp
 ****************************************
 
 Pyrocko is an open source seismology toolbox and library, written in the Python programming language and developed at the `GFZ Potsdam <http://www.gfz-potsdam.de>`_.
+The toolbox architecture is modular and independent, and can be utilized flexibly for a variety of geophysical problems.
 
-Development is coordinated at http://github.com/pyrocko.
+Development and support is coordinated at http://github.com/pyrocko.
 
 
 .. raw:: html
@@ -111,7 +112,7 @@ Waveform archive data manipulation
 .. image:: _static/jackseis_screenshot.png
     :align: left
 
-A command-line tool for common waveform archive data manipulation. Conviniently select/resample/trim or rename various seismic data formats.
+A command-line tool for common waveform archive data manipulation. Conveniently select/resample/trim or rename various seismic data formats.
 
 
 Grond
@@ -158,6 +159,9 @@ Lassie
 
 The friendly Earthquake Detector
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. image:: _static/lassie_detection.png
+    :align: left
 
 Rumble in the Bronx! Lassie is the pal at your side investigating and characterizing local earthquake activitiy.
 
