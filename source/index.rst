@@ -16,10 +16,10 @@ Development and support is coordinated at http://github.com/pyrocko.
     
    <div style="clear:both"></div>
 
-Pyrocko development is actively supported by `GFZ Potsdam
-<http://www.gfz-potsdam.de>`_, `CAU Kiel <http://www.uni-kiel.de/>`_, and
-`Emmy-Noether-Project "Bridging Geodesy and Seismology"
-<https://www.bridges.uni-kiel.de/>`_. 
+Supporters are: 
+    .. image:: _static/Logos_page.svg
+        :align: right
+        :scale: 90 %
 
 Pyrocko Framework
 =================
