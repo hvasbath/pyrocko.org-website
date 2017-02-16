@@ -70,7 +70,10 @@ Snuffler
 .. raw:: html
     
     <div class="application-information">
-    <span class="tag"><i class="fa fa-tag" aria-hidden="true"></i>Part of Pyrocko</span>
+        <span class="tag">
+            <i class="fa fa-tag" aria-hidden="true"></i>
+            <a href="http://pyrocko.org/v0.3/apps_snuffler.html">Part of Pyrocko</a>
+        </span>
     </div>
 
 Seismogram browser and workbench
@@ -79,7 +82,7 @@ Seismogram browser and workbench
 .. image:: _static/snuffler_screenshot.png
     :align: left
 
-The Snuffler is an interactive and extendible seismogram browser that is suited for small and very big datasets and archives. It features plugins (called `snufflings
+The Snuffler is an interactive and extendible seismogram browser that is suited for small and very big datasets and archives. It features plugins (called `Snufflings
 <http://pyrocko.org/v0.3/apps_snuffler_extensions.html>`_), which are helpful
 for broad variety of seismological applications. The main features are:
 
@@ -88,12 +91,27 @@ for broad variety of seismological applications. The main features are:
 * Beamforming
 * Cross-correlation of traces
 
+.. raw:: html
+    
+    <span class="tag" style="clear: both">
+        <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+        <a href="http://pyrocko.org/v0.3/apps_snuffler_tutorial.html">Tutorial</a>
+    </span>
+
+    <span class="tag" style="clear: both">
+        <i class="fa fa-puzzle-piece" aria-hidden="true"></i>
+        <a href="https://github.com/pyrocko/contrib-snufflings">User contributed Snufflings</a>
+    </span>
+
 Cake
 --------
 .. raw:: html
     
     <div class="application-information">
-    <span class="tag"><i class="fa fa-tag" aria-hidden="true"></i>Part of Pyrocko</span>
+        <span class="tag">
+            <i class="fa fa-tag" aria-hidden="true"></i>
+            <a href="http://pyrocko.org/v0.3/apps_cake.html">Part of Pyrocko</a>
+        </span>
     </div>
 
 1D travel-time and ray-path computations
@@ -117,11 +135,14 @@ Fomosto
 .. raw:: html
     
     <div class="application-information">
-    <span class="tag"><i class="fa fa-tag" aria-hidden="true"></i>Part of Pyrocko</span>
+        <span class="tag">
+            <i class="fa fa-tag" aria-hidden="true"></i>
+            <a href="http://pyrocko.org/v0.3/apps_fomosto.html">Part of Pyrocko</a>
+        </span>
     </div>
 
 Calculate and manage Green's function databases
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. image:: _static/fomosto_synthetic.png
     :align: left
@@ -130,18 +151,20 @@ Calculation of Green’s functions for synthetic seismograms is a computationall
 
 .. raw:: html
     
-    <span class="tag" style="background-color: #fff; margin-top: 0em; float: none;"><a href="http://kinherd.org:8080/gfws/static/stores/">
-        <i class="fa fa-database" aria-hidden="true"></i>Online resource of pre-calculated Green's functions
-    </a></span>
-
-
+    <span class="tag">
+        <i class="fa fa-database" aria-hidden="true"></i>
+        <a href="http://kinherd.org:8080/gfws/static/stores/">Online resource of pre-calculated Green's functions</a>
+    </span>
 
 Jackseis
 --------
 .. raw:: html
     
     <div class="application-information">
-    <span class="tag"><i class="fa fa-tag" aria-hidden="true"></i>Part of Pyrocko</span>
+        <span class="tag">
+            <i class="fa fa-tag" aria-hidden="true"></i>
+            <a href="http://pyrocko.org/v0.3/apps_jackseis.html">Part of Pyrocko</a>
+        </span>
     </div>
 
 Waveform archive data manipulation
@@ -158,7 +181,10 @@ Grond
 .. raw:: html
     
     <div class="application-information application-standalone">
-    <span class="tag"><i class="fa fa-cube" aria-hidden="true"></i>Download and Documentation</span>
+        <span class="tag">
+            <i class="fa fa-cube" aria-hidden="true"></i>
+            <a href="http://gitext.gfz-potsdam.de/heimann/grond">Download and Documentation</a>
+        </span>
     </div>
 
 Earthquake moment tensor inversion
@@ -175,7 +201,10 @@ Kite
 .. raw:: html
     
     <div class="application-information application-standalone">
-    <span class="tag"><i class="fa fa-cube" aria-hidden="true"></i>Download and Documentation</span>
+        <span class="tag">
+            <i class="fa fa-cube" aria-hidden="true"></i>
+            <a href="http://gitext.gfz-potsdam.de/isken/kite">Download and Documentation</a>
+        </span>
     </div>
 
 InSAR displacement analysis and postprocessing
@@ -192,7 +221,10 @@ Lassie
 .. raw:: html
     
     <div class="application-information application-standalone">
-    <span class="tag"><i class="fa fa-cube" aria-hidden="true"></i>Download and Documentation</span>
+        <span class="tag">
+            <i class="fa fa-cube" aria-hidden="true"></i>
+            Coming soon...
+        </span>
     </div>
 
 The friendly earthquake detector
@@ -201,12 +233,12 @@ The friendly earthquake detector
 .. image:: _static/lassie_detection.png
     :align: left
 
-Rumble in the Bronx! Lassie is the pal at your side investigating and characterizing local earthquake activity.
+Lassie is the pal at your side investigating and characterizing local earthquake activity.
 
 
 Additional Resources
 ====================
-* Pyrocko project page on `GitHub <http://github.com/pyrocko>`_
+
 * Snuffler tutorial (with screenshots)
 * Repository of user contributed Snufflings (http://www.github.com/pyrocko/contrib-snufflings)
 * Webservice: Pre-calculated Green's function stores

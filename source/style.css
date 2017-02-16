@@ -16,7 +16,6 @@
 }
 
 #applications div.section > div.section {
-    margin-left: 1em;
     margin-bottom: .5em;
 }
 
@@ -49,13 +48,12 @@ div.application-information {
     clear: both;
 }
 
-span.tag {
+div.application-information span.tag {
     float: right;
     margin-top: -2em;
 }
 
-div.application-standalone span.tag{
-    background-color: #cdffcc;
+div.application-standalone span.tag {
 }
 
 a.icon-button {
