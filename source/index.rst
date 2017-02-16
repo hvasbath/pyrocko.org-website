@@ -24,6 +24,9 @@ Pyrocko development is actively supported by `GFZ Potsdam
 Pyrocko Framework
 =================
 
+At its core, Pyrocko is a library and framework providing building blocks for
+researchers and students wishing to develop there own applications. 
+
 .. raw:: html
 
     <div class="icon-button-group">
@@ -58,7 +61,10 @@ Pyrocko Framework
 Applications
 ============
 
-Pyrocko contains applications assisting in everyday seismological practice:
+This section lists some applications built on top of the Pyrocko library. Some
+of these may be useful for everyday seismological practice and are `included in
+the Pyrocko package <http://pyrocko.org/v0.3/apps.html>`_. Some others are tightly integrated with Pyrocko but do
+more specialized task. These can be found in their own software repositories.
 
 Snuffler
 --------

@@ -74,6 +74,7 @@ a.icon-button i {
     color: black;
     margin-bottom: 0.2em;
     font-size: 200%;
+    font-weight: normal;
 }
 
 div.icon-button-group {
