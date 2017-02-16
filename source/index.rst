@@ -48,6 +48,11 @@ Pyrocko Framework
             Support
         </a>
 
+        <a href="https://pyrocko.org/v0.3/examples.html" class="icon-button">
+            <i class="fa fa-graduation-cap" aria-hidden="true"></i><br />
+            Code examples
+        </a>
+
     </div>
 
 Applications
