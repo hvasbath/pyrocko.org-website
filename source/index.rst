@@ -63,8 +63,9 @@ Applications
 
 This section lists some applications built on top of the Pyrocko library. Some
 of these may be useful for everyday seismological practice and are `included in
-the Pyrocko package <http://pyrocko.org/v0.3/apps.html>`_. Some others are tightly integrated with Pyrocko but do
-more specialized task. These can be found in their own software repositories.
+the Pyrocko package <http://pyrocko.org/v0.3/apps.html>`_. Some others are
+tightly integrated with Pyrocko but do more specialized task. These can be
+found in their own software repositories.
 
 Snuffler
 --------
