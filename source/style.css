@@ -57,3 +57,25 @@ span.tag {
 div.application-standalone span.tag{
     background-color: #cdffcc;
 }
+
+a.icon-button {
+    display: inline-block;
+    margin: 1em;
+    width: 13em;
+    height: 3em;
+    padding: 0.5em;
+    /* background-color: #ccc; */
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+a.icon-button i {
+    color: black;
+    margin-bottom: 0.2em;
+    font-size: 200%;
+}
+
+div.icon-button-group {
+    text-align: center;
+}

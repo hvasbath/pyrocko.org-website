@@ -1,34 +1,58 @@
 .. image:: http://pyrocko.org/v0.3/_images/pyrocko_shadow.png
     :align: left
 
-****************************************
-Pyrocko.org - Geophysical Software Swamp
-****************************************
+*************************************
+pyrocko.org - Software for Seismology
+*************************************
 
-Pyrocko is an open source seismology toolbox and library, written in the Python programming language and developed at the `GFZ Potsdam <http://www.gfz-potsdam.de>`_.
-The toolbox architecture is modular and independent, and can be utilized flexibly for a variety of geophysical problems.
+Pyrocko is an open source seismology toolbox and library, written in the Python
+programming language.  It can be utilized flexibly for a variety of geophysical
+tasks, like seismological data processing and analysis, modelling of InSAR, GPS
+data and dynamic waveforms, or for seismic source characterization.
 
 Development and support is coordinated at http://github.com/pyrocko.
-
 
 .. raw:: html
     
    <div style="clear:both"></div>
 
+Pyrocko development is actively supported by `GFZ Potsdam
+<http://www.gfz-potsdam.de>`_, `CAU Kiel <http://www.uni-kiel.de/>`_, and
+`Emmy-Noether-Project "Bridging Geodesy and Seismology"
+<https://www.bridges.uni-kiel.de/>`_. 
 
 Pyrocko Framework
 =================
-Pyrocko is the foundation of wonderful seismological tools prospering in its open-source ecosystem. These tools can be seen as mere frameworks enabling researchers and students rapid development of seismological software and answer questions of seismology.
 
-Tutorials and References
-------------------------
+.. raw:: html
 
-* `Download and Installation <http://pyrocko.org/v0.3/install_quick.html>`_
-* `Tutorials and Examples <http://pyrocko.org/v0.3/examples.html>`_
-* `Documentation <http://pyrocko.org/v0.3>`_
+    <div class="icon-button-group">
+
+        <a href="http://pyrocko.org/v0.3" class="icon-button">
+            <i class="fa fa-book" aria-hidden="true"></i><br />
+            Pyrocko manual
+        </a>
+
+        <a href="http://pyrocko.org/v0.3/install_quick.html" class="icon-button">
+            <i class="fa fa-download" aria-hidden="true"></i><br />
+            Download and installation
+        </a>
+
+        <a href="https://github.com/pyrocko/pyrocko" class="icon-button">
+            <i class="fa fa-github" aria-hidden="true"></i><br />
+            Project page on GitHub
+        </a>
+
+        <a href="https://github.com/pyrocko/pyrocko/issues" class="icon-button">
+            <i class="fa fa-question" aria-hidden="true"></i><br />
+            Support
+        </a>
+
+    </div>
 
 Applications
 ============
+
 Pyrocko contains applications assisting in everyday seismological practice:
 
 Snuffler
@@ -45,7 +69,10 @@ Seismogram browser and workbench
 .. image:: _static/snuffler_screenshot.png
     :align: left
 
-An extensible seismogram browser suited for big datasets and archives. The Snuffler features plugins (called `snufflings <http://pyrocko.org/v0.3/apps_snuffler_extensions.html>`_) which are helpful for broad variety of seismological applications. The main features are:
+An extensible seismogram browser suited for big datasets and archives. The
+Snuffler features plugins (called `snufflings
+<http://pyrocko.org/v0.3/apps_snuffler_extensions.html>`_) which are helpful
+for broad variety of seismological applications. The main features are:
 
 * Event and phase picking (manual & STA/LTA)
 * Spectral- and FK-analysis
@@ -65,7 +92,9 @@ Cake
 .. image:: _static/cake_plot_example.png
     :align: left
 
-Cake is a tool which can be used to solve classical seismic ray theory problems for layered earth models (layer cake models). For various seismic phases it can calculate:
+Cake is a tool which can be used to solve classical seismic ray theory problems
+for layered earth models (layer cake models). For various seismic phases it can
+calculate:
 
 * Arrival times
 * Ray paths
@@ -173,12 +202,6 @@ Additional Resources
 * Repository of user contributed Snufflings (http://www.github.com/pyrocko/contrib-snufflings)
 * Webservice: Pre-calculated Green's function stores
 * EGU2014 poster: Synthetic seismogram web service and Python tools
-
-Developed at
-============
-.. image:: _static/gfz_logo.svg
-    :align: right
-
 
 .. meta::
     :description: Pyrocko is an open source seismology environment.
