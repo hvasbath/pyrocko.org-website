@@ -10,16 +10,17 @@ programming language.  It can be utilized flexibly for a variety of geophysical
 tasks, like seismological data processing and analysis, modelling of InSAR, GPS
 data and dynamic waveforms, or for seismic source characterization.
 
-Development and support is coordinated at http://github.com/pyrocko.
+Development and support is coordinated at https://github.com/pyrocko.
 
 .. raw:: html
     
-   <div style="clear:both"></div>
-
-Supporters are: 
-    .. image:: _static/Logos_page.svg
-        :align: right
-        :scale: 90 %
+   <div style="clear:both; width:100%; text-align:center; margin-top:3em; margin-bottom:2em;">
+       <a href="http://gfz-potsdam.de/"><img style="margin-left:1em; height:2em; display:inline-block;" src="_static/logos/gfz.svg" /></a>
+       <a href="http://www.dfg.de/"><img style="margin-left:1em; height:2em; display:inline-block;" src="_static/logos/dfg.svg" /></a>
+       <a href="https://www.bridges.uni-kiel.de/"><img style="margin-left:1em; height:2em; display:inline-block;" src="_static/logos/bridges.svg" /></a>
+       <a href="http://www.uni-kiel.de/"><img style="margin-left:1em; height:2em; display:inline-block;" src="_static/logos/cau.svg" /></a>
+       <a href="http://www.uni-hamburg.de/"><img style="margin-left:1em; height:2em; display:inline-block;" src="_static/logos/uhh.svg" /></a>
+   </div>
 
 Pyrocko Framework
 =================
@@ -36,7 +37,7 @@ researchers and students wishing to develop there own applications.
             Pyrocko manual
         </a>
 
-        <a href="http://pyrocko.org/v0.3/install_quick.html" class="icon-button">
+        <a href="http://pyrocko.org/v0.3/install/" class="icon-button">
             <i class="fa fa-download" aria-hidden="true"></i><br />
             Download and installation
         </a>
@@ -51,7 +52,7 @@ researchers and students wishing to develop there own applications.
             Support
         </a>
 
-        <a href="https://pyrocko.org/v0.3/examples.html" class="icon-button">
+        <a href="https://pyrocko.org/v0.3/library/examples/" class="icon-button">
             <i class="fa fa-graduation-cap" aria-hidden="true"></i><br />
             Code examples
         </a>
@@ -63,7 +64,7 @@ Applications
 
 This section lists some applications built on top of the Pyrocko library. Some
 of these may be useful for everyday seismological practice and are `included in
-the Pyrocko package <http://pyrocko.org/v0.3/apps.html>`_. Some others are tightly integrated with Pyrocko for specialized tasks and can be found in their own software repositories.
+the Pyrocko package <http://pyrocko.org/v0.3/apps/>`_. Some others are tightly integrated with Pyrocko for specialized tasks and can be found in their own software repositories.
 
 Snuffler
 --------
@@ -72,7 +73,7 @@ Snuffler
     <div class="application-information">
         <span class="tag">
             <i class="fa fa-tag" aria-hidden="true"></i>
-            <a href="http://pyrocko.org/v0.3/apps_snuffler.html">Part of Pyrocko</a>
+            <a href="http://pyrocko.org/v0.3/apps/snuffler/">Part of Pyrocko</a>
         </span>
     </div>
 
@@ -83,8 +84,8 @@ Seismogram browser and workbench
     :align: left
 
 The Snuffler is an interactive and extendible seismogram browser that is suited for small and very big datasets and archives. It features plugins (called `Snufflings
-<http://pyrocko.org/v0.3/apps_snuffler_extensions.html>`_), which are helpful
-for broad variety of seismological applications. The main features are:
+<http://pyrocko.org/v0.3/apps/snuffler/extensions.html>`_), which are helpful
+for broad variety of seismological applications. Features include:
 
 * Event and phase picking (manual & STA/LTA)
 * Spectral- and FK-analysis
@@ -92,16 +93,18 @@ for broad variety of seismological applications. The main features are:
 * Cross-correlation of traces
 
 .. raw:: html
-    
-    <span class="tag" style="clear: both">
-        <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-        <a href="http://pyrocko.org/v0.3/apps_snuffler_tutorial.html">Tutorial</a>
-    </span>
 
-    <span class="tag" style="clear: both">
-        <i class="fa fa-puzzle-piece" aria-hidden="true"></i>
-        <a href="https://github.com/pyrocko/contrib-snufflings">User contributed Snufflings</a>
-    </span>
+    <div style="clear:both;">
+        <span class="tag">
+            <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+            <a href="http://pyrocko.org/v0.3/apps/snuffler/tutorial.html">Tutorial</a>
+        </span>
+
+        <span class="tag">
+            <i class="fa fa-puzzle-piece" aria-hidden="true"></i>
+            <a href="https://github.com/pyrocko/contrib-snufflings">User contributed Snufflings</a>
+        </span>
+    </div>
 
 Cake
 --------
@@ -110,7 +113,7 @@ Cake
     <div class="application-information">
         <span class="tag">
             <i class="fa fa-tag" aria-hidden="true"></i>
-            <a href="http://pyrocko.org/v0.3/apps_cake.html">Part of Pyrocko</a>
+            <a href="http://pyrocko.org/v0.3/apps/cake/">Part of Pyrocko</a>
         </span>
     </div>
 
@@ -137,7 +140,7 @@ Fomosto
     <div class="application-information">
         <span class="tag">
             <i class="fa fa-tag" aria-hidden="true"></i>
-            <a href="http://pyrocko.org/v0.3/apps_fomosto.html">Part of Pyrocko</a>
+            <a href="http://pyrocko.org/v0.3/apps/fomosto/">Part of Pyrocko</a>
         </span>
     </div>
 
@@ -151,10 +154,12 @@ Calculation of Green’s functions for synthetic seismograms is a computationall
 
 .. raw:: html
     
-    <span class="tag">
-        <i class="fa fa-database" aria-hidden="true"></i>
-        <a href="http://kinherd.org:8080/gfws/static/stores/">Online resource of pre-calculated Green's functions</a>
-    </span>
+    <div style="clear:both;">
+        <span class="tag">
+            <i class="fa fa-database" aria-hidden="true"></i>
+            <a href="http://kinherd.org:8080/gfws/static/stores/">Online resource of pre-calculated Green's functions</a>
+        </span>
+    </div>
 
 Jackseis
 --------
@@ -163,14 +168,14 @@ Jackseis
     <div class="application-information">
         <span class="tag">
             <i class="fa fa-tag" aria-hidden="true"></i>
-            <a href="http://pyrocko.org/v0.3/apps_jackseis.html">Part of Pyrocko</a>
+            <a href="http://pyrocko.org/v0.3/apps/jackseis/">Part of Pyrocko</a>
         </span>
     </div>
 
 Waveform archive data manipulation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. image:: _static/jackseis_screenshot.png
+.. image:: _static/jackseis_250x172.png
     :align: left
 
 Jackseis is a command-line tool for common manipulations of archived waveform data. You can conveniently select/resample/trim or rename seismic data of various formats.
@@ -203,7 +208,7 @@ Kite
     <div class="application-information application-standalone">
         <span class="tag">
             <i class="fa fa-cube" aria-hidden="true"></i>
-            <a href="http://gitext.gfz-potsdam.de/isken/kite">Download and Documentation</a>
+            <a href="https://github.com/pyrocko/kite">Download and Documentation</a>
         </span>
     </div>
 
@@ -216,31 +221,11 @@ InSAR displacement analysis and postprocessing
 Get your InSAR displacement maps handled the pyrocko way (and prepared for the deformation source analysis in pyrocko). Experience a highly interactive inspection of static displacement fields and data noise. Do easy quadtree data subsampling and data error variance-covariance estimation of InSAR data for proper data weighting in deformation source optimizations.
 
 
-Lassie
--------
-.. raw:: html
-    
-    <div class="application-information application-standalone">
-        <span class="tag">
-            <i class="fa fa-cube" aria-hidden="true"></i>
-            Coming soon...
-        </span>
-    </div>
-
-The friendly earthquake detector
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-.. image:: _static/lassie_detection.png
-    :align: left
-
-Lassie is the pal at your side investigating and characterizing local earthquake activity.
-
-
 Additional Resources
 ====================
 
 * Snuffler tutorial (with screenshots)
-* Repository of user contributed Snufflings (http://www.github.com/pyrocko/contrib-snufflings)
+* Repository of user contributed Snufflings (https://github.com/pyrocko/contrib-snufflings)
 * Webservice: Pre-calculated Green's function stores
 * EGU2014 poster: Synthetic seismogram web service and Python tools
 

@@ -46,7 +46,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Pyrocko.org'
+project = u'pyrocko.org'
 copyright = u'2017, The Pyrocko Developers'
 author = u''
 
