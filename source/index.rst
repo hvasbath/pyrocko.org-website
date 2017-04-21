@@ -204,7 +204,6 @@ Grond
 
 .. image:: _static/fomosto_synthetic.png
     :align: left
-    :width: 150px
 
 Grond is a bootstrap-based probabilistic battering ram to explore and
 efficiently converge in solution spaces of earthquake source parameter
