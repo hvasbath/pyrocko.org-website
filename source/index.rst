@@ -145,7 +145,7 @@ Fomosto
 
 *Calculate and manage Green's function databases*
 
-.. image:: _static/fomosto_synthetic.png
+.. image:: _static/fomosto2.png
     :align: left
 
 Calculation of Green’s functions for synthetic seismograms is a computationally
@@ -202,7 +202,7 @@ Grond
 
 *Probabilistic source optimization*
 
-.. image:: _static/grond_moment-tensor.png
+.. image:: _static/fomosto_synthetic.png
     :align: left
     :width: 150px
 
