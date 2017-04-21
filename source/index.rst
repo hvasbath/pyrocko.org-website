@@ -21,7 +21,7 @@ Supporters are:
         :align: right
         :scale: 90 %
 
-Pyrocko Framework
+Pyrocko framework
 =================
 
 At its core, Pyrocko is a library and framework providing building blocks for
@@ -76,8 +76,7 @@ Snuffler
         </span>
     </div>
 
-Seismogram browser and workbench
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+*Seismogram browser and workbench*
 
 .. image:: _static/snuffler_screenshot.png
     :align: left
@@ -93,15 +92,17 @@ for broad variety of seismological applications. The main features are:
 
 .. raw:: html
     
-    <span class="tag" style="clear: both">
-        <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-        <a href="http://pyrocko.org/v0.3/apps_snuffler_tutorial.html">Tutorial</a>
-    </span>
+    <div style="clear: both; padding-top: 0.5em;">
+        <span class="tag">
+            <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+            <a href="http://pyrocko.org/v0.3/apps_snuffler_tutorial.html">Tutorial</a>
+        </span>
 
-    <span class="tag" style="clear: both">
-        <i class="fa fa-puzzle-piece" aria-hidden="true"></i>
-        <a href="https://github.com/pyrocko/contrib-snufflings">User contributed Snufflings</a>
-    </span>
+        <span class="tag">
+            <i class="fa fa-puzzle-piece" aria-hidden="true"></i>
+            <a href="https://github.com/pyrocko/contrib-snufflings">User contributed Snufflings</a>
+        </span>
+    </div>
 
 Cake
 --------
@@ -114,8 +115,8 @@ Cake
         </span>
     </div>
 
-1D travel-time and ray-path computations
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+*1D travel-time and ray-path computations*
+
 .. image:: _static/cake_plot_example.png
     :align: left
 
@@ -141,13 +142,18 @@ Fomosto
         </span>
     </div>
 
-Calculate and manage Green's function databases
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+*Calculate and manage Green's function databases*
 
 .. image:: _static/fomosto_synthetic.png
     :align: left
 
-Calculation of Green’s functions for synthetic seismograms is a computationally expensive operation and it can be of advantage to calculate and store them in advance. Now, for typical application scenarios, the Green’s function traces can be reused as required. Fomosto offers building of flexible Green's function databases that can be shared and passed to other researchers, allowing them to focus on their own application rather then spending days of work to get their Green’s function setup ready.
+Calculation of Green’s functions for synthetic seismograms is a computationally
+expensive operation and it can be of advantage to calculate and store them in
+advance. Now, for typical application scenarios, the Green’s function traces
+can be reused as required. Fomosto offers building of flexible Green's function
+databases that can be shared and passed to other researchers, allowing them to
+focus on their own application rather then spending days of work to get their
+Green’s function setup ready.
 
 .. raw:: html
     
@@ -167,14 +173,18 @@ Jackseis
         </span>
     </div>
 
-Waveform archive data manipulation
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+*Waveform archive data manipulation*
 
-.. image:: _static/jackseis_screenshot.png
+.. image:: _static/jackseis.jpg
     :align: left
 
-Jackseis is a command-line tool for common manipulations of archived waveform data. You can conveniently select/resample/trim or rename seismic data of various formats.
+Jackseis is a command-line tool for common manipulations of archived waveform
+datasets. Have it in your pocket to do:
 
+* File format conversions
+* Dataset conversions between day-files, hour-files, etc.
+* Batch replacement of waveform meta-information
+* Flexible filename and directory hierarchy manipulations
 
 Grond
 -----
@@ -187,14 +197,20 @@ Grond
         </span>
     </div>
 
-Earthquake moment tensor inversion
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+*Probabilistic source optimization*
 
 .. image:: _static/grond_moment-tensor.png
     :align: left
     :width: 150px
 
-Grond is a bootstrap-based probabilistic battering ram to explore and efficiently converge in solution spaces of earthquake source parameter estimation problems. 
+Grond is a bootstrap-based probabilistic battering ram to explore and
+efficiently converge in solution spaces of earthquake source parameter
+estimation problems.
+
+* Trade-off analysis
+* Highly flexible objective function design
+* Integrated robust waveform data preprocessing
+* Visual inspection of many aspects of the optimization problem
 
 Kite
 ----
@@ -207,8 +223,7 @@ Kite
         </span>
     </div>
 
-InSAR displacement analysis and postprocessing
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+*InSAR displacement analysis and postprocessing*
 
 .. image:: _static/spool_screenshot.png
     :align: left
@@ -227,22 +242,13 @@ Lassie
         </span>
     </div>
 
-The friendly earthquake detector
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+*The friendly earthquake detector*
 
 .. image:: _static/lassie_detection.png
     :align: left
 
 Lassie is the pal at your side investigating and characterizing local earthquake activity.
 
-
-Additional Resources
-====================
-
-* Snuffler tutorial (with screenshots)
-* Repository of user contributed Snufflings (http://www.github.com/pyrocko/contrib-snufflings)
-* Webservice: Pre-calculated Green's function stores
-* EGU2014 poster: Synthetic seismogram web service and Python tools
 
 .. meta::
     :description: Pyrocko is an open source seismology environment.
