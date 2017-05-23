@@ -68,3 +68,12 @@ a.icon-button i {
 div.icon-button-group {
     text-align: center;
 }
+
+span.doi {
+    background-color: #F5F5F5;
+    border-color: #EEEEEE;
+}
+
+span.doi a {
+    font-size: 70%;
+}

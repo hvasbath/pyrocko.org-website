@@ -103,6 +103,11 @@ for broad variety of seismological applications. Features include:
             <i class="fa fa-puzzle-piece" aria-hidden="true"></i>
             <a href="https://github.com/pyrocko/contrib-snufflings">User contributed Snufflings</a>
         </span>
+
+        <span class="tag doi">
+            <i class="fa fa-university" aria-hidden="true"></i>
+            <a href="http://doi.org/10.5880/GFZ.2.1.2017.001">DOI: 10.5880/GFZ.2.1.2017.001</a>
+        </span>
     </div>
 
 Cake
@@ -221,7 +226,7 @@ Kite
     <div class="application-information application-standalone">
         <span class="tag">
             <i class="fa fa-cube" aria-hidden="true"></i>
-            <a href="https://github.com/pyrocko/kite">Download and Documentation</a>
+            <a href="https://pyrocko.github.io/kite/">Documentation</a>
         </span>
     </div>
 
@@ -231,6 +236,24 @@ Kite
     :align: left
 
 Get your InSAR displacement maps handled the pyrocko way (and prepared for the deformation source analysis in pyrocko). Experience a highly interactive inspection of static displacement fields and data noise. Do easy quadtree data subsampling and data error variance-covariance estimation of InSAR data for proper data weighting in deformation source optimizations.
+
+.. raw:: html
+    
+    <div style="clear:both;">
+        <span class="tag">
+            <i class="fa fa-github" aria-hidden="true"></i>
+            <a href="https://github.com/pyrocko/kite">Download</a>
+        </span>
+    </div>
+
+
+Publications
+============
+
+    Heimann, Sebastian; Kriegerowski, Marius; Isken, Marius; Cesca, Simone; Daout, Simon; Grigoli, Francesco; Juretzek, Carina; Megies, Tobias; Nooshiri, Nima; Steinberg, Andreas; Sudhaus, Henriette; Vasyura-Bathke, Hannes; Willey, Timothy; Dahm, Torsten (2017): **Pyrocko - An open-source seismology toolbox and library**. V. 0.3. GFZ Data Services. http://doi.org/10.5880/GFZ.2.1.2017.001
+
+
+    Heimann, Sebastian; Kriegerowski, Marius; Dahm, Torsten; Simone, Cesca; Wang, Rongjiang: **A Green's function database platform for seismological research and education: applications and examples**. EGU General Assembly 2016, held 17-22 April, 2016 in Vienna Austria, p.15292
 
 
 .. meta::
