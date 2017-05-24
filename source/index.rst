@@ -93,20 +93,18 @@ for broad variety of seismological applications. Features include:
 
 .. raw:: html
     
-    <div style="clear: both; padding-top: 0.5em;">
+    <div class="application-tags">
         <span class="tag">
             <i class="fa fa-graduation-cap" aria-hidden="true"></i>
             <a href="http://pyrocko.org/v0.3/apps_snuffler_tutorial.html">Tutorial</a>
         </span>
-
         <span class="tag">
             <i class="fa fa-puzzle-piece" aria-hidden="true"></i>
             <a href="https://github.com/pyrocko/contrib-snufflings">User contributed Snufflings</a>
         </span>
-
         <span class="tag doi">
             <i class="fa fa-university" aria-hidden="true"></i>
-            <a href="http://doi.org/10.5880/GFZ.2.1.2017.001">DOI: 10.5880/GFZ.2.1.2017.001</a>
+            <a href="http://doi.org/10.5880/GFZ.2.1.2017.001" target="_blank">DOI: 10.5880/GFZ.2.1.2017.001</a>
         </span>
     </div>
 
@@ -137,6 +135,15 @@ calculate:
 
 Computations are done for a spherical earth.
 
+.. raw:: html
+    
+    <div class="application-tags">
+        <span class="tag doi">
+            <i class="fa fa-university" aria-hidden="true"></i>
+            <a href="http://doi.org/10.5880/GFZ.2.1.2017.001" target="_blank">DOI: 10.5880/GFZ.2.1.2017.001</a>
+        </span>
+    </div>
+
 Fomosto
 --------
 .. raw:: html
@@ -163,10 +170,14 @@ Green’s function setup ready.
 
 .. raw:: html
     
-    <div style="clear:both;">
+    <div class="application-tags">
         <span class="tag">
             <i class="fa fa-database" aria-hidden="true"></i>
             <a href="http://kinherd.org:8080/gfws/static/stores/">Online resource of pre-calculated Green's functions</a>
+        </span>
+        <span class="tag doi">
+            <i class="fa fa-university" aria-hidden="true"></i>
+            <a href="http://doi.org/10.5880/GFZ.2.1.2017.001" target="_blank">DOI: 10.5880/GFZ.2.1.2017.001</a>
         </span>
     </div>
 
@@ -194,6 +205,15 @@ datasets. Have it in your pocket to do:
 * Batch replacement of waveform meta-information
 * Flexible filename and directory hierarchy manipulations
 
+.. raw:: html
+    
+    <div class="application-tags">
+        <span class="tag doi">
+            <i class="fa fa-university" aria-hidden="true"></i>
+            <a href="http://doi.org/10.5880/GFZ.2.1.2017.001" target="_blank">DOI: 10.5880/GFZ.2.1.2017.001</a>
+        </span>
+    </div>
+
 Grond
 -----
 .. raw:: html
@@ -219,13 +239,27 @@ estimation problems.
 * Integrated robust waveform data preprocessing
 * Visual inspection of many aspects of the optimization problem
 
+.. raw:: html
+    
+    <div class="application-tags">
+        <span class="tag doi">
+            <i class="fa fa-university" aria-hidden="true"></i>
+            <a href="">DOI: In Preparation</a>
+        </span>
+    </div>
+
+
 Kite
 ----
 .. raw:: html
     
     <div class="application-information application-standalone">
         <span class="tag">
-            <i class="fa fa-cube" aria-hidden="true"></i>
+            <i class="fa fa-github" aria-hidden="true"></i>
+            <a href="https://github.com/pyrocko/kite">Download</a>
+        </span>
+        <span class="tag">
+            <i class="fa fa-graduation-cap" aria-hidden="true"></i>
             <a href="https://pyrocko.github.io/kite/">Documentation</a>
         </span>
     </div>
@@ -239,10 +273,43 @@ Get your InSAR displacement maps handled the pyrocko way (and prepared for the d
 
 .. raw:: html
     
-    <div style="clear:both;">
+    <div class="application-tags">
+        <span class="tag doi">
+            <i class="fa fa-university" aria-hidden="true"></i>
+            <a href="">DOI: In Preparation</a>
+        </span>
+    </div>
+
+
+Talpa
+=====
+.. raw:: html
+    
+    <div class="application-information">
         <span class="tag">
-            <i class="fa fa-github" aria-hidden="true"></i>
-            <a href="https://github.com/pyrocko/kite">Download</a>
+            <i class="fa fa-tag" aria-hidden="true"></i>
+            <a href="https://pyrocko.github.io/kite/">Part of Kite</a>
+        </span>
+    </div>
+
+*Interactive static displacement modelling*
+
+.. image:: _static/talpa_screenshot.png
+    :align: left
+
+
+Fault ruptures and volcanic plumbing systems are complex and highly interactive processes which take place in heterogeneous composition of the Earth’s crust. To intuitively study the complexities, we developed a graphical tool to interact and link observed surface displacements with a selection of synthetic deformation sources. This may guide as a first measure and constrain future finite numerical optimisation. Talpa, the mole, provides interfaces to different displacement codes and models:
+
+* Point and finite pyrocko.gf sources; layered half-space
+* Okada rectangular dislocation source; homogeneous elastic half-space (Okada, 1985)
+* I Triaxial ellisoidal source, compound dislocation model; homogeneous elastic half-space
+
+.. raw:: html
+    
+    <div class="application-tags">
+        <span class="tag doi">
+            <i class="fa fa-university" aria-hidden="true"></i>
+            <a href="">DOI: In Preparation</a>
         </span>
     </div>
 
