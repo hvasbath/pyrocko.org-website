@@ -52,7 +52,7 @@ researchers and students wishing to develop there own applications.
             Support
         </a>
 
-        <a href="https://pyrocko.org/v0.3/library/examples/" class="icon-button">
+        <a href="http://pyrocko.org/v0.3/library/examples/" class="icon-button">
             <i class="fa fa-graduation-cap" aria-hidden="true"></i><br />
             Code examples
         </a>
@@ -248,19 +248,15 @@ estimation problems.
         </span>
     </div>
 
-
 Kite
 ----
+
 .. raw:: html
     
     <div class="application-information application-standalone">
         <span class="tag">
             <i class="fa fa-github" aria-hidden="true"></i>
-            <a href="https://github.com/pyrocko/kite">Download</a>
-        </span>
-        <span class="tag">
-            <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-            <a href="https://pyrocko.github.io/kite/">Documentation</a>
+            <a href="https://github.com/pyrocko/kite">Download and Installation</a>
         </span>
     </div>
 
@@ -274,6 +270,10 @@ Get your InSAR displacement maps handled the pyrocko way (and prepared for the d
 .. raw:: html
     
     <div class="application-tags">
+        <span class="tag">
+            <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+            <a href="https://pyrocko.github.io/kite/">Tutorials and Documentation</a>
+        </span>
         <span class="tag doi">
             <i class="fa fa-university" aria-hidden="true"></i>
             <a href="">DOI: In Preparation</a>
@@ -282,13 +282,14 @@ Get your InSAR displacement maps handled the pyrocko way (and prepared for the d
 
 
 Talpa
-=====
+-----
+
 .. raw:: html
     
     <div class="application-information">
         <span class="tag">
             <i class="fa fa-tag" aria-hidden="true"></i>
-            <a href="https://pyrocko.github.io/kite/">Part of Kite</a>
+            <a href="https://github.com/pyrocko/kite">Part of Kite</a>
         </span>
     </div>
 
@@ -298,11 +299,7 @@ Talpa
     :align: left
 
 
-Fault ruptures and volcanic plumbing systems are complex and highly interactive processes which take place in heterogeneous composition of the Earth’s crust. To intuitively study the complexities, we developed a graphical tool to interact and link observed surface displacements with a selection of synthetic deformation sources. This may guide as a first measure and constrain future finite numerical optimisation. Talpa, the mole, provides interfaces to different displacement codes and models:
-
-* Point and finite pyrocko.gf sources; layered half-space
-* Okada rectangular dislocation source; homogeneous elastic half-space (Okada, 1985)
-* I Triaxial ellisoidal source, compound dislocation model; homogeneous elastic half-space
+Fault ruptures and volcanic plumbing systems are complex and highly interactive processes which take place in heterogeneous composition of the Earth’s crust. To intuitively study the complexities, we developed a graphical tool to interact and link observed surface displacements with deformation sources. This may guide as a first measure and constrain future finite numerical optimisation. Talpa, the mole, provides interfaces to different displacement codes and models, one beeing ``pyrocko.gf``.
 
 .. raw:: html
     
