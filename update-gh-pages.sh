@@ -6,7 +6,7 @@ if [ ! -f update-gh-pages.sh ] ; then
 fi
 
 if [ ! -d gh-pages ] ; then
-    git clone -b gh-pages git@github.com:pyrocko/pyrocko.git gh-pages
+    git clone -b gh-pages git@github.com:pyrocko/pyrocko.org.git gh-pages
 fi
 cd gh-pages
 git pull origin gh-pages
