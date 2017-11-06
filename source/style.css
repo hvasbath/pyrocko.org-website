@@ -19,6 +19,20 @@ div.body > div.section {
     padding: .2em 1em;
 }
 
+div#new-pyrocko-version-2017-11 {
+    margin: 0.5em -1em;
+    padding: 1em 1em;
+    background-color: #f7fffe;
+}
+
+div#new-pyrocko-version-2017-11 a {
+    font-weight: bold !important;
+}
+
+div#new-pyrocko-version-2017-11 h2 {
+    background-color: transparent;
+}
+
 #applications div.section > div.section {
     margin-bottom: .5em;
 }

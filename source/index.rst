@@ -57,7 +57,24 @@ researchers and students wishing to develop their own applications.
             Code examples
         </a>
 
+        <a href="https://hive.pyrocko.org" target="_blank" class="icon-button">
+            <i class="fa fa-comments" aria-hidden="true"></i><br />
+            Community Chat
+        </a>
+
     </div>
+
+
+New Pyrocko Version 2017.11
+============================
+
+* **Python 2/3 Support**
+* **Improved documentation and examples**
+* Community Support Chat https://hive.pyrocko.org
+* Installation by `pip python <https://pypi.python.org>`_ and `Anaconda <https://anaconda.org/>`_
+* Snufflings **Maps**, **Seismosizer** and **Cake** are built-in now
+* Version naming has changed to rolling release style (2017.11)
+* Reorganized module hirarchy (backwards-compatible)
 
 Applications
 ============
