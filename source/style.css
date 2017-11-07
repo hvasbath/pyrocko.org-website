@@ -20,17 +20,28 @@ div.body > div.section {
 }
 
 div#new-pyrocko-version-2017-11 {
-    margin: 0.5em -1em;
-    padding: 1em 1em;
-    background-color: #f7fffe;
+    margin: 1.5em 0em;
+    padding: .75em 1em;
+    background-color: #fafafa;
+    border-radius: 3px;
+    border: .1px solid #bdbdbd;
 }
 
 div#new-pyrocko-version-2017-11 a {
     font-weight: bold !important;
+    color: black;
 }
 
 div#new-pyrocko-version-2017-11 h2 {
     background-color: transparent;
+    padding: 0em;
+    padding-bottom: .3em;
+    font-weight: 500;
+    font-size: 140%;
+}
+
+div#new-pyrocko-version-2017-11 li {
+    padding: .1em 0em;
 }
 
 #applications div.section > div.section {
