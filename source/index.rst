@@ -1,4 +1,4 @@
-.. image:: http://pyrocko.org/v0.3/_images/pyrocko_shadow.png
+.. image:: https://pyrocko.org/docs/current/_images/pyrocko_shadow.png
     :align: left
 
 *************************************
@@ -65,7 +65,7 @@ researchers and students wishing to develop their own applications.
     </div>
 
 
-New Pyrocko version: 2017.11
+New Pyrocko version 2017.11
 ============================
 
 * **Python 2/3 support**
