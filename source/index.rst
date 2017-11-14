@@ -76,7 +76,7 @@ New Pyrocko version 2017.11
 * Version naming has changed to rolling release style (e.g. *2017.11*)
 * Reorganized module hirarchy (backwards-compatible)
 
-.. centered:: `Upgrade instructions from Pyrocko v0.3 to v2017.11 <https://pyrocko.org/docs/current/install>`_
+.. centered:: `Upgrade instructions from Pyrocko v0.3 to v2017.11 <https://pyrocko.org/docs/v2017.11/install>`_
 
 
 Applications
