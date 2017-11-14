@@ -69,16 +69,14 @@ New Pyrocko version 2017.11
 ============================
 
 * **Python 2/3 support**
-* `Improved documentation and examples <http://pyrocko.org/docs/current>`_
+* `Improved documentation and examples <http://pyrocko.org/docs/v2017.11>`_
 * Community support chat - `https://hive.pyrocko.org <https://hive.pyrocko.org/signup_user_complete/?id=9edryhxeptdbmxrecbwy3zg49y>`_
 * Installation through `python pip <https://pypi.python.org>`_ and `Anaconda <https://anaconda.org/>`_
 * Built-in Snufflings added: **Maps**, **Seismosizer** and **Cake**
 * Version naming has changed to rolling release style (e.g. *2017.11*)
 * Reorganized module hirarchy (backwards-compatible)
-    
-*Upgrade instructions from Pyrocko v0.3 to 2017.11*
 
-.. centered:: https://pyrocko.org/docs/current/install
+.. centered:: `Upgrade instructions from Pyrocko v0.3 to v2017.11 <https://pyrocko.org/docs/current/install>`_
 
 
 Applications
