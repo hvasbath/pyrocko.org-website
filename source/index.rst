@@ -75,6 +75,11 @@ New Pyrocko version 2017.11
 * Built-in Snufflings added: **Maps**, **Seismosizer** and **Cake**
 * Version naming has changed to rolling release style (e.g. *2017.11*)
 * Reorganized module hirarchy (backwards-compatible)
+    
+*Upgrade instructions from Pyrocko v0.3 to 2017.11*
+
+.. centered:: https://pyrocko.org/docs/current/install
+
 
 Applications
 ============
