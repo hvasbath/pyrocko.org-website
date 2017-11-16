@@ -54,10 +54,10 @@ researchers and students wishing to develop their own applications.
 
         <a href="http://pyrocko.org/v0.3/library/examples/" class="icon-button">
             <i class="fa fa-graduation-cap" aria-hidden="true"></i><br />
-            Code examples
+            Examples / Notebooks
         </a>
 
-        <a href="https://hive.pyrocko.org/signup_user_complete/?id=9edryhxeptdbmxrecbwy3zg49y" target="_blank" class="icon-button">
+        <a href="https://hive.pyrocko.org/" target="_blank" class="icon-button">
             <i class="fa fa-comments" aria-hidden="true"></i><br />
             Community chat
         </a>
@@ -70,7 +70,7 @@ New Pyrocko version 2017.11
 
 * **Python 2/3 support**
 * `Improved documentation and examples <http://pyrocko.org/docs/v2017.11>`_
-* Community support chat - `https://hive.pyrocko.org <https://hive.pyrocko.org/signup_user_complete/?id=9edryhxeptdbmxrecbwy3zg49y>`_
+* `Community support chat <https://hive.pyrocko.org/>`_
 * Installation through `python pip <https://pypi.python.org>`_ and `Anaconda <https://anaconda.org/>`_
 * Built-in Snufflings added: **Maps**, **Seismosizer** and **Cake**
 * Version naming has changed to rolling release style (e.g. *2017.11*)
