@@ -54,7 +54,7 @@ researchers and students wishing to develop their own applications.
 
         <a href="http://pyrocko.org/docs/current/library/examples/" class="icon-button">
             <i class="fa fa-graduation-cap" aria-hidden="true"></i><br />
-            Code examples
+            Examples / Notebooks
         </a>
 
         <a href="https://hive.pyrocko.org/" target="_blank" class="icon-button">
