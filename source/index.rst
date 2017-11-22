@@ -69,7 +69,7 @@ New Pyrocko version 2017.11
 ============================
 
 * **Python 2/3 support**
-* `Improved documentation and examples <http://pyrocko.org/docs/v2017.11>`_
+* `Improved documentation and examples <http://pyrocko.org/docs/current>`_
 * `Community support chat <https://hive.pyrocko.org/>`_
 * Installation through `python pip <https://pypi.python.org>`_ and `Anaconda <https://anaconda.org/>`_
 * Built-in Snufflings added: **Maps**, **Seismosizer** and **Cake**
@@ -292,7 +292,7 @@ Get your InSAR displacement maps handled the pyrocko way (and prepared for the d
     <div class="application-tags">
         <span class="tag">
             <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-            <a href="https://pyrocko.github.io/kite/">Tutorials and Documentation</a>
+            <a href="/docs/kite/">Tutorials and Documentation</a>
         </span>
         <span class="tag doi">
             <i class="fa fa-university" aria-hidden="true"></i>
