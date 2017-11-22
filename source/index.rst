@@ -292,7 +292,7 @@ Get your InSAR displacement maps handled the pyrocko way (and prepared for the d
     <div class="application-tags">
         <span class="tag">
             <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-            <a href="/docs/kite/">Tutorials and Documentation</a>
+            <a href="/docs/kite">Tutorials and Documentation</a>
         </span>
         <span class="tag doi">
             <i class="fa fa-university" aria-hidden="true"></i>
