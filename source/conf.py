@@ -20,6 +20,7 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 import sphinx_sleekcat_theme
+from datetime import datetime as dt
 
 # -- General configuration ------------------------------------------------
 
@@ -47,7 +48,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'pyrocko.org'
-copyright = u'2017, The Pyrocko Developers'
+copyright = u'%d, The Pyrocko Developers' % dt.now().year
 author = u''
 
 # The version info for the project you're documenting, acts as replacement for
