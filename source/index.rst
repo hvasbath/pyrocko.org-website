@@ -1,9 +1,15 @@
 .. image:: https://pyrocko.org/docs/current/_images/pyrocko_shadow.png
     :align: left
 
-*************************************
-pyrocko.org - Software for Seismology
-*************************************
+***********
+pyrocko.org
+***********
+
+**Software for Seismology**
+
+.. raw:: html
+
+    <div style="clear:both;"></div>
 
 Pyrocko is an open source seismology toolbox and library, written in the Python
 programming language.  It can be utilized flexibly for a variety of geophysical
@@ -32,12 +38,12 @@ researchers and students wishing to develop their own applications.
 
     <div class="icon-button-group">
 
-        <a href="http://pyrocko.org/docs/current" class="icon-button">
+        <a href="docs/current/" class="icon-button">
             <i class="fa fa-book" aria-hidden="true"></i><br />
             Pyrocko manual
         </a>
 
-        <a href="http://pyrocko.org/docs/current/install/" class="icon-button">
+        <a href="docs/current/install/" class="icon-button">
             <i class="fa fa-download" aria-hidden="true"></i><br />
             Download and installation
         </a>
@@ -52,7 +58,7 @@ researchers and students wishing to develop their own applications.
             Support
         </a>
 
-        <a href="http://pyrocko.org/docs/current/library/examples/" class="icon-button">
+        <a href="docs/current/library/examples/" class="icon-button">
             <i class="fa fa-graduation-cap" aria-hidden="true"></i><br />
             Examples / Notebooks
         </a>
@@ -64,27 +70,22 @@ researchers and students wishing to develop their own applications.
 
     </div>
 
+.. note:: 
 
-New Pyrocko version 2017.11
-============================
-
-* **Python 2/3 support**
-* `Improved documentation and examples <http://pyrocko.org/docs/current>`_
-* `Community support chat <https://hive.pyrocko.org/>`_
-* Installation through `python pip <https://pypi.python.org>`_ and `Anaconda <https://anaconda.org/>`_
-* Built-in Snufflings added: **Maps**, **Seismosizer** and **Cake**
-* Version naming has changed to rolling release style (e.g. *2017.11*)
-* Reorganized module hirarchy (backwards-compatible)
-
-.. centered:: `Upgrade instructions from Pyrocko v0.3 to v2017.11 <https://pyrocko.org/docs/v2017.11/install>`_
-
+    Pyrocko has undergone some major changes in its November 2017 release
+    (`v2017.11.16
+    <https://github.com/pyrocko/pyrocko/releases/tag/v2017.11.16>`_). If you
+    are upgrading from the earlier v0.3 version, please read our `upgrade
+    instructions <docs/current/install/upgrade.html>`_.
 
 Applications
 ============
 
 This section lists some applications built on top of the Pyrocko library. Some
 of these may be useful for everyday seismological practice and are `included in
-the Pyrocko package <http://pyrocko.org/docs/current/apps/>`_. Some others are tightly integrated with Pyrocko for specialized tasks and can be found in their own software repositories.
+the Pyrocko package <docs/current/apps/>`_. Some others are tightly integrated
+with Pyrocko for specialized tasks and can be found in their own software
+repositories.
 
 Snuffler
 --------
@@ -93,7 +94,7 @@ Snuffler
     <div class="application-information">
         <span class="tag">
             <i class="fa fa-tag" aria-hidden="true"></i>
-            <a href="http://pyrocko.org/docs/current/apps/snuffler/">Part of Pyrocko</a>
+            <a href="docs/current/apps/snuffler/">Part of Pyrocko</a>
         </span>
     </div>
 
@@ -103,7 +104,7 @@ Snuffler
     :align: left
 
 The Snuffler is an interactive and extensible seismogram browser that is suited for small and very big datasets and archives. It features plugins (called `Snufflings
-<http://pyrocko.org/docs/current/apps/snuffler/extensions.html>`_), which are helpful
+<docs/current/apps/snuffler/extensions.html>`_), which are helpful
 for broad variety of seismological applications. Features include:
 
 * Event and phase picking (manual & STA/LTA)
@@ -116,7 +117,7 @@ for broad variety of seismological applications. Features include:
     <div class="application-tags">
         <span class="tag">
             <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-            <a href="http://pyrocko.org/docs/current/apps_snuffler_tutorial.html">Tutorial</a>
+            <a href="docs/current/apps/snuffler/tutorial.html">Tutorial</a>
         </span>
         <span class="tag">
             <i class="fa fa-puzzle-piece" aria-hidden="true"></i>
@@ -135,7 +136,7 @@ Cake
     <div class="application-information">
         <span class="tag">
             <i class="fa fa-tag" aria-hidden="true"></i>
-            <a href="http://pyrocko.org/docs/current/apps/cake/">Part of Pyrocko</a>
+            <a href="docs/current/apps/cake/">Part of Pyrocko</a>
         </span>
     </div>
 
@@ -171,7 +172,7 @@ Fomosto
     <div class="application-information">
         <span class="tag">
             <i class="fa fa-tag" aria-hidden="true"></i>
-            <a href="http://pyrocko.org/docs/current/apps/fomosto/">Part of Pyrocko</a>
+            <a href="docs/current/apps/fomosto/">Part of Pyrocko</a>
         </span>
     </div>
 
@@ -208,7 +209,7 @@ Jackseis
     <div class="application-information">
         <span class="tag">
             <i class="fa fa-tag" aria-hidden="true"></i>
-            <a href="http://pyrocko.org/docs/current/apps/jackseis/">Part of Pyrocko</a>
+            <a href="docs/current/apps/jackseis/">Part of Pyrocko</a>
         </span>
     </div>
 
@@ -292,7 +293,7 @@ Get your InSAR displacement maps handled the pyrocko way (and prepared for the d
     <div class="application-tags">
         <span class="tag">
             <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-            <a href="/docs/kite/current">Tutorials and Documentation</a>
+            <a href="docs/kite/current/">Tutorials and Documentation</a>
         </span>
         <span class="tag doi">
             <i class="fa fa-university" aria-hidden="true"></i>
@@ -326,7 +327,7 @@ Fault ruptures and volcanic plumbing systems are complex and highly interactive 
     <div class="application-tags">
         <span class="tag">
             <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-            <a href="/docs/kite/current/talpa.html">Examples and Documentation</a>
+            <a href="docs/kite/current/talpa.html">Examples and Documentation</a>
         </span>
         <span class="tag doi">
             <i class="fa fa-university" aria-hidden="true"></i>
