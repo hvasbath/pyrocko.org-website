@@ -269,6 +269,40 @@ estimation problems.
         </span>
     </div>
 
+
+BEAT
+----
+.. raw:: html
+    
+    <div class="application-information application-standalone">
+        <span class="tag">
+            <i class="fa fa-github" aria-hidden="true"></i>
+            <a href="https://github.com/hvasbath/beat">Download and Installation</a>
+        </span>
+    </div>
+
+*Bayesian Earthquake Analysis Tool*
+
+.. image:: _static/spool_screenshot.png
+    :align: left
+
+Probabilistic source inversion for point sources, extended sources up to distributed slip.
+Explores the solution space using a Sequential Monte Carlo algorithm and therefore supports 
+
+.. raw:: html
+    
+    <div class="application-tags">
+        <span class="tag">
+            <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+            <a href="/docs/kite">Tutorials and Documentation</a>
+        </span>
+        <span class="tag doi">
+            <i class="fa fa-university" aria-hidden="true"></i>
+            <a href="http://doi.org/10.5880/GFZ.2.1.2017.002">DOI: 10.5880/GFZ.2.1.2017.002</a>
+        </span>
+    </div>
+
+
 Kite
 ----
 
