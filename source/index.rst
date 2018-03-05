@@ -26,6 +26,8 @@ Development and support is coordinated at https://github.com/pyrocko.
        <a href="https://www.bridges.uni-kiel.de/"><img style="margin-left:1em; height:2em; display:inline-block;" src="_static/logos/bridges.svg" /></a>
        <a href="http://www.uni-kiel.de/"><img style="margin-left:1em; height:2em; display:inline-block;" src="_static/logos/cau.svg" /></a>
        <a href="http://www.uni-hamburg.de/"><img style="margin-left:1em; height:2em; display:inline-block;" src="_static/logos/uhh.svg" /></a>
+       <a href="http://www.uni-potsdam.de/"><img style="margin-left:1em; height:2em; display:inline-block;" src="_static/logos/up.svg" /></a>
+       <a href="http://www.kaust.edu.sa/"><img style="margin-left:1em; height:2em; display:inline-block;" src="_static/logos/kaust.svg" /></a>
    </div>
 
 Pyrocko framework
@@ -283,22 +285,27 @@ BEAT
 
 *Bayesian Earthquake Analysis Tool*
 
-.. image:: _static/spool_screenshot.png
+.. image:: _static/mt_correlation.png
     :align: left
 
+Flexible, bayesian, multi-dataset deformation source optimization including model uncertainties.
 Probabilistic source inversion for point sources, extended sources up to distributed slip.
-Explores the solution space using a Sequential Monte Carlo algorithm and therefore supports 
+
+* convergence insurance through Sequential Monte Carlo algorithm
+* option to include model uncertainties (theory errors due to Earth structure)
+* parallel sampling on n CPUs
+* optional GPU sampling for linear problems
 
 .. raw:: html
     
     <div class="application-tags">
         <span class="tag">
             <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-            <a href="/docs/kite">Tutorials and Documentation</a>
+            <a href="https://hvasbath.github.io/beat/">Tutorials and Documentation</a>
         </span>
         <span class="tag doi">
             <i class="fa fa-university" aria-hidden="true"></i>
-            <a href="http://doi.org/10.5880/GFZ.2.1.2017.002">DOI: 10.5880/GFZ.2.1.2017.002</a>
+            <a href="">DOI: In Preparation</a>
         </span>
     </div>
 
