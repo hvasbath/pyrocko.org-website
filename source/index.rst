@@ -293,7 +293,7 @@ Probabilistic source inversion for point sources, extended sources up to distrib
 
 * convergence insurance through Sequential Monte Carlo algorithm
 * option to include model uncertainties (theory errors due to Earth structure)
-* parallel sampling on n CPUs
+* parallel sampling on available CPUs
 * optional GPU sampling for linear problems
 
 .. raw:: html
