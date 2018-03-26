@@ -26,7 +26,7 @@ Development and support is coordinated at https://github.com/pyrocko.
        <a href="https://www.bridges.uni-kiel.de/"><img style="margin-left:1em; height:2em; display:inline-block;" src="_static/logos/bridges.svg" /></a>
        <a href="http://www.uni-kiel.de/"><img style="margin-left:1em; height:2em; display:inline-block;" src="_static/logos/cau.svg" /></a>
        <a href="http://www.uni-hamburg.de/"><img style="margin-left:1em; height:2em; display:inline-block;" src="_static/logos/uhh.svg" /></a>
-       <a href="http://www.uni-potsdam.de/"><img style="margin-left:1em; height:2em; display:inline-block;" src="_static/logos/up.svg" /></a>
+       <a href="http://www.uni-potsdam.de/"><img style="margin-left:1em; height:2em; display:inline-block;" src="_static/logos/up_int.png" /></a>
        <a href="http://www.kaust.edu.sa/"><img style="margin-left:1em; height:2em; display:inline-block;" src="_static/logos/kaust.svg" /></a>
    </div>
 
